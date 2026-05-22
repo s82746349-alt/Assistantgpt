@@ -6,7 +6,6 @@ import re
 from datetime import datetime
 from collections import defaultdict, Counter
 import os
-
 # ========== ДАННЫЕ ==========
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "заглушка")
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "заглушка")
